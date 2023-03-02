@@ -2,7 +2,10 @@ import sys
 
 def lion():
     print('roar')
-    
+
+def cow():
+    print('mooo')
+
 def cat():
     print('Meow')
 
@@ -19,6 +22,8 @@ def main():
         dog()
     elif sys.argv[1] == 'lion':
         lion()
+    elif sys.argv[1] == 'cow':
+        cow()
     else:
         default()
 
